@@ -20,6 +20,6 @@ export class CharactersComponent implements OnInit {
 
   getCharacterDetail(character) {
     console.log('character::::::::::::::::::::::::::::::::::::', character);
-    this.store.dispatch(new fromCharacters.GetPokemonDetails);
+    // this.store.dispatch(new fromCharacters.GetPokemonDetails);
   }
 }
