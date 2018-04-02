@@ -1,0 +1,7 @@
+
+<ul>
+  <li *ngFor="let character of (characters$ | async)"
+    (click)="getCharacterDetail(character)">
+    {{character.name}}
+  </li>
+</ul>

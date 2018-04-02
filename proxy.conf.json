@@ -1,0 +1,18 @@
+{
+  "/api": {
+    "target": "https://swapi.co",
+    "secure": false,
+    "pathRewrite": {
+      "^/api": ""
+    },
+    "changeOrigin": true
+  },
+  "/api/v2": {
+    "target": "http://pokeapi.co",
+    "secure": false,
+    "pathRewrite": {
+      "^/api/v2": ""
+    },
+    "changeOrigin": true
+  }
+}
